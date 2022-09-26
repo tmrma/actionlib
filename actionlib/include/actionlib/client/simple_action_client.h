@@ -39,7 +39,9 @@
 #include <boost/thread/mutex.hpp>
 #include <boost/scoped_ptr.hpp>
 #include <boost/concept_check.hpp>
+#include <boost/bind.hpp>
 
+#include <functional>
 #include <string>
 
 #include "ros/ros.h"
